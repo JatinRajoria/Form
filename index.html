@@ -1,0 +1,62 @@
+<!-- Sign up form -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&family=Varela+Round&family=Work+Sans:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="stream-signup-form">
+        <div class="front">
+            <img class="logo" src="img/R.png" alt="">
+            <h1 class="title">Create your account</h1>
+            <p>The ultimate, entertainment platform</p>
+            <p>Play, connect, create and more.</p>
+            <p><strong>It's free to join and easy to use.</strong></p>
+
+            <form class="form" action="">
+                <label class="form__label" for="email">Your Email <span class="form__tooltip" data-tooltip="Please enter your email address">?</span></label>
+                <input class="form__text" type="email" id="email" name="email">
+                <label class="form__label" for="password">Password <span class="form__tooltip" data-tooltip="Minimum 12 characters, at least one capital and one number">?</span></label>
+                <input class="form__text" type="password" id="password" name="password">
+                <label class="form__label" for="password-reenter">Re-enter password</label>
+                <input class="form__text" type="password" id="password-reenter" name="password-reenter">
+              
+                <p class="fineprint flex-center">
+                  <input class="form__checkbox" type="checkbox" id="agreement" name="agreement">
+                  <label for="agreement">I am 13 years of age or older AND agree to the <a href="#">terms and serivces</a>.</label>
+                </p>
+                <p>
+                  <img class="recaptcha" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/308367/recaptcha-dark.png" alt="">
+                </p>
+                
+                <button class="button">Sign up now</button>
+                <a href="#" class="fineprint">I already have an account</a>      
+              </form>
+              
+            </div>
+            
+            <div class="back">
+              <h2 class="subheading">Why join steam?</h2>
+              <ul class="list list--unstyled">
+                <li>Buy and download full retail games</li>
+                <li>Join the Steam Community</li>
+                <li>Chat with your friends while gaming</li>
+                <li>Play your games on any supported platform</li>
+                <li>Schedule a game, tournament, or LAN party</li>
+                <li>Receive automatic game updates, and more!</li>
+              </ul>
+            </div>
+            
+          </div>
+</body>
+
+</html>
